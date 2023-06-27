@@ -25,3 +25,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.stripe {
+  background: linear-gradient( to bottom, #5d9634, #5d9634 50%, #538c2b 50%, #538c2b);
+  height: 90vh;
+  width: 100%;
+  background-size: 100vh 20px;
+  background-attachment: fixed;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;      
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(179,154,77);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 4px;
+}
